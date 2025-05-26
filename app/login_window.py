@@ -4,7 +4,7 @@ import json
 
 from PyQt5 import QtGui
 from PyQt5.QtCore import Qt, QSize
-from PyQt5.QtGui import QPixmap, QIcon
+from PyQt5.QtGui import QPixmap, QIcon # type: ignore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QListView
 from PyQt5.QtWidgets import QMessageBox, QListWidget, QLabel, QLineEdit
