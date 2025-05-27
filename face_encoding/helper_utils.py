@@ -1,7 +1,7 @@
 import logging
 
-import dlib
-import cv2
+import dlib 
+import cv2 
 import numpy as np
 
 face_detector = dlib.get_frontal_face_detector()
